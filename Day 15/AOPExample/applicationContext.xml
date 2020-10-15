@@ -7,7 +7,10 @@
 
     <bean id="obj" class="com.training.org.A"></bean>
     <bean id="ba" class="com.training.org.BeforeAdvice"></bean>
+    <bean id="aa" class="Com.training.org.AfterAdvice">
 
+
+    </bean>
 
     <bean id="proxy"
           class="org.springframework.aop.framework.ProxyFactoryBean">
@@ -16,6 +19,7 @@
         <property name="InterceptorNames">
             <list>
                 <value>ba</value>
+                <value>aa</value>
             </list>
 
         </property>
