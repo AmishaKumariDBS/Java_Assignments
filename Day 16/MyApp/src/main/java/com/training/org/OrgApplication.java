@@ -6,6 +6,7 @@ import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -59,6 +60,9 @@ public class OrgApplication {
 
     public int getPort() {
         return port;
+    }
+    public void InitBinder(@Value("${init.numbers}"), int []numbers){
+        System.out.println(numbers);
     }
 
     public void setPort(int port) {
