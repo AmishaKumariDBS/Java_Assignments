@@ -32,11 +32,12 @@ public class User {
         public void setPassword(String password) {
             this.password = password;
         }
-    public Address getAddress() {
+        public boolean isVer(){return ver;}
+        public void setVer(boolean ver){this.ver = ver;}
+        public Address getAddress() {
         return address;
-    }
-
-    public void setAddress(Address address) {
+         }
+         public void setAddress(Address address) {
         this.address = address;
     }
     public List<Role> getRole(){

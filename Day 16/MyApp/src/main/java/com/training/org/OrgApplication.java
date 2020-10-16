@@ -41,6 +41,13 @@ public class OrgApplication {
     public void setDbProp(DatabaseProperties dbProp) {
         this.dbProp = dbProp;
     }
+    public User getUSer() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     public List<String> getMailCollection() {
         return mailCollection;
