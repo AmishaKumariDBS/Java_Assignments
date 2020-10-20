@@ -35,7 +35,7 @@ public class User {
         public boolean isVer(){return ver;}
         public void setVer(boolean ver){this.ver = ver;}
         public Address getAddress() {
-        return address;
+            return address;
          }
          public void setAddress(Address address) {
         this.address = address;

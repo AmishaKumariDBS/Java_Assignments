@@ -1,0 +1,13 @@
+logging:
+  level:
+    org.springframework: ERROR
+    file:
+      name: logs/mylogs.log
+
+Server:
+  address: localhost
+  port: 4040
+  server-header: Hola
+
+spring:
+  datasource:
