@@ -1,3 +1,7 @@
+
+## Installation
+
+This [guide](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/html/) includes the step by step installation [instructions](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/html/getting-started.html#getting-started-installing-spring-boot)
 ## Modules
 There are a number of modules in Spring Boot, here is a quick overview:
 ## spring-boot
