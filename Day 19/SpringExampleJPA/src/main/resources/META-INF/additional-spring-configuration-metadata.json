@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "SpringExampleJPA.schema.h2source.password",
+      "type": "java.lang.String",
+      "description": "Description for SpringExampleJPA.schema.h2source.password."
+  }
+] }
